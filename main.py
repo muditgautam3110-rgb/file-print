@@ -4,3 +4,4 @@ with open('data.txt',) as file:
 content_capitalized = data.upper()
 print(content_capitalized
       )
+print("Bye! yy")
