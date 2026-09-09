@@ -1,3 +1,6 @@
 with open('data.txt',) as file:
     data = file.read()
-    print(data)
+    
+content_capitalized = data.upper()
+print(content_capitalized
+      )
