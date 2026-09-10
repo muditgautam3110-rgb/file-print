@@ -1,8 +1,13 @@
-with open('data.txt',) as file:
-    data = file.read()
+try:
+    with open('data.txt',) as file:
+        data = file.read()
     
-content_capitalized = data.upper()
-print(content_capitalized
-      )
-print("Hello! xx")
-print("Bye! yy")
+    content_capitalized = data.upper()
+    print(content_capitalized)
+    print("Hello! xx")
+    print("Bye! yy")  
+        
+except FileNotFoundError:
+    print("File not found.")
+     
+
