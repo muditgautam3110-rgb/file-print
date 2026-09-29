@@ -6,6 +6,7 @@ try:
     print(content_capitalized)
     print("Hello! xx")
     print("Bye! yy")  
+    print("file content: ")
     
     user_input = input("Enter some text: ")
     
