@@ -19,9 +19,14 @@ try:
     print("file content: ")
     print(content_capitalized)
     print("DONE")
+
+    n = 10
+    for i in range(n):
+        if i % 2 == 0:
+            print(i)
   
         
 except FileNotFoundError:
     print("File not found.")
+    print("File will be created.")
      
-
